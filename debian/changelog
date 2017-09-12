@@ -1,3 +1,9 @@
+com.github.donadigo.eddy (1.1.4-0pop1) artful; urgency=medium
+
+  * Release for Pop
+
+ -- Jeremy Soller <jeremy@system76.com>  Tue, 12 Sep 2017 14:36:46 -0600
+
 com.github.donadigo.eddy (1.1.4) UNSTABLE; urgency=low
     
   * Add a button to update / downgrade already installed package
