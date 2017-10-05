@@ -22,7 +22,7 @@ namespace Eddy.Constants {
     public const string EXEC_NAME = "com.github.donadigo.eddy";
     public const string SCHEMA_NAME = EXEC_NAME;
     public const string DESKTOP_NAME = "com.github.donadigo.eddy.desktop";
-    public const Gdk.RGBA BRAND_COLOR = { 0.9, 0.2, 0.3, 1 };
+    public const Gdk.RGBA BRAND_COLOR = { 0.28, 0.73, 0.78, 1 };
 
     public const Gtk.TargetEntry[] DRAG_TARGETS = {{ "text/uri-list", 0, 0 }};
     public const string[] DEFAULT_SUPPORTED_MIMETYPES = { "application/vnd.debian.binary-package", "application/x-deb" };
