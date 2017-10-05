@@ -1,3 +1,10 @@
+com.github.donadigo.eddy (1.1.8-0) artful; urgency=medium
+
+  * Fix theme colors
+  * New upstream release
+
+ -- Jeremy Soller <jeremy@system76.com>  Thu, 05 Oct 2017 12:11:50 -0600
+
 com.github.donadigo.eddy (1.1.7-0pop0) artful; urgency=medium
 
   * Release for Pop
