@@ -1,3 +1,9 @@
+com.github.donadigo.eddy (1.1.8-1) artful; urgency=medium
+
+  * Rebuild for newer granite
+
+ -- Jeremy Soller <jeremy@system76.com>  Wed, 08 Nov 2017 15:47:29 -0700
+
 com.github.donadigo.eddy (1.1.8-0) artful; urgency=medium
 
   * Fix theme colors
