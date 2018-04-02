@@ -429,6 +429,7 @@ public class Eddy.MainWindow : Gtk.Window {
             }
 
             var dialog = new MessageDialog (_("Some Packages Could Not Be Added"), builder.str, "dialog-warning");
+            dialog.title = Constants.APP_NAME;
             dialog.add_button (_("Close"), 0);
             dialog.show_all ();
             dialog.run ();
@@ -514,7 +515,8 @@ public class Eddy.MainWindow : Gtk.Window {
     }
 
     private void on_package_added (Package package) {
-        if (stack.visible_child_name != LIST_VIEW_ID) {
+        string name = stack.visible_child_name;
+        if (name != LIST_VIEW_ID && name != DETAILED_VIEW_ID) {
             open_button_revealer.reveal_child = true;
             stack.visible_child_name = LIST_VIEW_ID;
         }
@@ -530,7 +532,7 @@ public class Eddy.MainWindow : Gtk.Window {
     private void on_back_button_clicked () {
         set_widget_visible (back_button, false);
 
-        open_button.sensitive = true;     
+        open_button.sensitive = true;
         stack.visible_child_name = LIST_VIEW_ID;
     }
 
