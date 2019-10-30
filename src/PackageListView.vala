@@ -82,6 +82,7 @@ public class Eddy.PackageListView : Gtk.Box {
 
     public void add_package (Package package) {
         var row = new PackageRow (package);
+        row.selectable = false;
         row.action_clicked.connect (() => perform_default_action (row.package));
         row.reinstall.connect (() => reinstall (row.package));
         row.removed.connect (on_row_removed);
