@@ -12,7 +12,7 @@ Build-Depends: cmake (>= 2.8),
 
 Standards-Version: 3.9.6
 Package: com.github.donadigo.eddy
-Architecture: any
+Architecture: amd64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: dpkg (>= 1.15.6)
 Description: Eddy
